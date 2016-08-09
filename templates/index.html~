@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>图片修复</title>
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/yuntjy.css"/>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="position: fixed;height: 100%; width: 100%; font-family: '微软雅黑';">
+		<div class="myheadall">
+			<div class="headin">
+				<img src="static/img/title.png"/>
+				<ul class="myshare">
+					<li>分享到：</li>
+					<li><img src="static/img/weixin.png"/></li>
+					<li><img src="static/img/qq.png"/></li>
+					<li><img src="static/img/weibo.png"/></li>
+				</ul>
+			</div>
+		</div>
+		<img src="static/img/colorline.png" class="coline"/>
+		<div class="picbody " id="dianji">
+		
+    <form name="file" action="./upload" method='POST' enctype="multipart/form-data">
+			<label  class="selectbtn" for="myselect" onclick="$('#tijiao').show();$('#dianji').hide();">选择图片</label>
+			<input type="file" name="file" id="myselect" class="myinput"></input>
+		</div>
+		<div class="picbody " style="display: none;" id="tijiao">
+			<label  class="selectbtn" for="mysubmit">点击提交</label>
+			<input type="submit" id="mysubmit" name="tocolor" class="myinput"></input>
+		</form>
+		</div>
+
+		<div class="myfooter">
+			<ul>
+				<li>使用说明</li>
+				<li>平台介绍</li>
+				<li>关于我们</li>
+				<li>联系我们</li>
+				<li>网站导航</li>
+				<li>客户端下载</li>
+				<li>版权所有</li>
+			</ul>
+			<ul>
+				<li>友情链接</li>
+				<li>综合服务平台</li>
+				<li>昆山必捷必官网</li>
+				<li>阳光共享工程</li>
+			</ul>
+			<ul>
+				<li>粤府新函[2001]87号 粤网文[2014]0633-233号 网络视听许可证1904073号 增值电信业务经营许可证：粤B2-20090059 B2-20090028 违法和不良信息举报电话：0755-83767606</li>
+			</ul>
+			<ul>
+				<li>Copyright © 1998 - 2016 Tencent. All Rights Reserved</li>
+			</ul>
+		</div>
+	</body>
+</html>

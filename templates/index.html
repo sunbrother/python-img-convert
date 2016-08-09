@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+		<div class="picbody " id="dianji">
+		
+    <form name="file" action="./upload" method='POST' enctype="multipart/form-data">
+			<label  class="selectbtn" for="myselect" onclick="$('#tijiao').show();$('#dianji').hide();">选择图片</label>
+			<input type="file" name="file" id="myselect" class="myinput"></input>
+		</div>
+		<div class="picbody " style="display: none;" id="tijiao">
+			<label  class="selectbtn" for="mysubmit">点击提交</label>
+			<input type="submit" id="mysubmit" name="tocolor" class="myinput"></input>
+		</form>
+	</div>
+{% endblock %}

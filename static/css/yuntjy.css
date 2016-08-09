@@ -1,0 +1,124 @@
+.myheadall{
+	width: 100%;
+}
+.headin{
+	width: 1180px;
+	margin: auto;
+	padding-top: 18px;
+}
+.coline{
+	width: 100%;
+	margin-bottom: -14px;
+}
+.myshare{
+	float: right;
+}
+.myshare li{
+	display: inline-block;
+	margin-right: 5px;
+}
+.picbody{
+	width: 100%;
+	background: url(../img/picbg.jpg) no-repeat;
+	background-size:cover;
+	height: 80%;
+}
+.threebtn a{
+color:#fff;
+}
+.selectbtn{
+    width: 300px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    border: 3px solid #FFFFFF;
+    margin: auto;
+    color: #FFFFFF;
+    vertical-align: middle;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -42px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.myfooter{
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 0;
+}
+.myfooter ul li{
+	display: inline;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #333333;
+}
+.myfooter ul li:last-child{
+	border: none;
+}
+.myinput{
+	display: none !important;
+}
+.perview{
+	background: url(../img/white.png);
+	height: 73%;
+	width: 100%;
+}
+.steptwo{
+	top:76%;
+}
+.inimgshow{
+	text-align: center;
+width: 70%;
+margin-left: 15%;
+height: 100%;
+}
+.inimgshow img{
+	    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.88);
+}
+.threebtn{
+    width: 100%;
+    margin: auto;
+    color: #FFFFFF;
+    vertical-align: middle;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -42px;
+    cursor: pointer;
+    
+}
+.threechild{
+    display: inline-block;
+    width: 300px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    border: 3px solid #FFFFFF;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.inimgshowthree{
+	text-align: center;
+    width:49%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.inimgshowthree img{
+	    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.88);
+}
+.left{
+	text-align: right;
+	padding-right: 15px;
+}
+.right{
+	text-align: left;
+	padding-left: 15px;
+}

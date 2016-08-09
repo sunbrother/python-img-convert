@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+		<div class="picbody">
+			<div class="perview">
+				<div class="inimgshowthree left">
+			
+					<img src="{{url_for('static',filename='gracy/'+originFile)}}"/>
+				</div>
+				<div class="inimgshowthree right">
+					<img src="{{url_for('static',filename='color/'+originFile)}}">
+				</div>
+			</div>
+			<div class="threebtn">
+				<div  class="threechild">下载到本地</div>
+			    <div a=href="/"  class="threechild">继续转换</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="{{url_for('static',filename='js/resize.js')}}"></script>
+		<script>
+$(function(){
+imgHW(document.querySelector('.left img'));
+imgHW(document.querySelector('.right img'));
+
+});
+    </script>
+{% endblock %}
